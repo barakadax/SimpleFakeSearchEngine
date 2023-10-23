@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search engine</title>
+        <link rel="icon" href="icon.png">
+        <link href="style/style.css" rel="stylesheet" type='text/css'>
+        <meta name="viewport" content="initial-scale=1.0 minimum-scale=1.0 width=device-width"/>
+        <meta charset=utf-8 />
+    </head>
+    <!--Message is from browser cookie settings, can be fixed server side but this is a client side code-->
+    <!--ERR_BLOCKED_BY_CLIENT means you got adblocker on your browser-->
+    <body dir="auto">
+        <div id="centered">
+            <h1>Search engine</h1>
+            <input id="my-input" type="text" spellcheck="false" oninput="update_live_text()">
+            <div id="show_input">Search</div>
+            <ul id="list">
+            </ul>
+        </div>
+        <script src="js/functions.js"></script>
+    </body>
+</html>

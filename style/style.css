@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    overflow-x: hidden;
+    color: whitesmoke;
+    background-color: black;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    padding: 2px 0 2px 0;
+    list-style-type: none;
+}
+
+input {
+    border: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 25px 0;
+    text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+iframe {
+    border: none;
+    width: 560px;
+    height: 315px;
+    outline: none;
+    margin: 20px 0 20px 0;
+}
+
+#my-input {
+    outline: none;
+    max-width: 90%;
+    font-size: 30px;
+    color: whitesmoke;
+    margin: 0 0 15px 0;
+    padding: 0 6px 6px 6px;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(255, 140, 0) 1px 1px 1px, rgb(255, 140, 0) 0px 0px 1em, rgb(255, 140, 0) 0px 0px 0.2em;
+}
+
+#centered {
+    display: flex;
+    margin: 20px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+#show_input {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    text-shadow: 1px 1px 1px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+#list {
+    max-width: 75%;
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    iframe {
+        width: 256px;
+        height: 144px;
+    }
+}
+
+/*class == . && id == #*/
